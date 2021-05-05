@@ -65,6 +65,7 @@ body .slider {
   border: 2px solid black;
 }
 body .slider .slider-item {
+  display: none;
   margin: 0 72px;
   position: relative;
   -webkit-animation-name: fade;
@@ -81,6 +82,9 @@ body .slider .slider-item .slider-img {
   margin: 0 auto;
   border: 4px solid #13C59D;
   border-radius: 30px;
+}
+body .slider .active-slide {
+  display: block;
 }
 body .slider .slider-btn-box {
   position: absolute;
